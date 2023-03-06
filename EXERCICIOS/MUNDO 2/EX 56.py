@@ -1,3 +1,4 @@
+
 sexo = str(input('Digite o sexo do bb : ')).strip().upper()[0]
 while sexo not in "MmFf":
     sexo = str(input('INVALIDO digite o sexo do bb : ')).strip().upper()[0]
