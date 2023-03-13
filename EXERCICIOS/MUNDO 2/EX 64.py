@@ -12,6 +12,7 @@ while resp in "Ss":
         if num < menor:
             menor = num
 
-    resp = str(input('QUER CONTINUAR? [S, N]')).upper().strip()[0]
+    resp = str(input('QUER CONTINUAR? [S, N] : ')).upper().strip()[0]
 media = soma / quant
-print('VOCE DIGITOU {} NUMEROS ,A SOMA {}, A MEDIA É {}, O MAIOR NUMERO É {}  O MENOR É {}'. format(quant , soma, media , maior , menor ))
+print('VOCE DIGITOU {} NUMEROS , A SOMA {}, A MEDIA É {}, O MAIOR NUMERO É {}  O MENOR É {}'. format(quant , soma, media , maior , menor ))
+
